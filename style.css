@@ -65,22 +65,24 @@ html {
 }
 
 .login {
-  background-color: white;
-  color: rgb(204, 35, 35);
+  background-color: transparent;
+  color: white;
   border-radius: 12px;
+  border: 1px solid white;
 }
 
 .signup {
-  background-color: rgb(204, 35, 35);
-  color: white;
+  background-color: white;
+  color: rgb(77, 117, 194);
   border-radius: 12px;
+  border: 1px solid transparent;
 }
 
 .login:hover {
-  color: white;
+  color: rgb(77, 117, 194);
   transition: ease-in-out 0.2s;
   border: 1px solid white;
-  background-color: transparent;
+  background-color: white;
   cursor: pointer;
 }
 
@@ -112,7 +114,7 @@ html {
 
 .cta_demo a {
   border-radius: 10px;
-  background-color: rgb(204, 35, 35);
+  background-color: rgb(77, 117, 194);
   color: white;
   font-weight: normal;
   font-size: 0.9375rem;
@@ -120,10 +122,10 @@ html {
 
 .cta_demo a:hover {
   background-color: white;
-  color: red;
+  color: rgb(77, 117, 194);
   font-weight: normal;
   transition: ease-in 0.3s;
-  border: 1px solid red;
+  border: 1px solid rgb(77, 117, 194);
 }
 
 .statspan {
@@ -260,6 +262,7 @@ span .spanRes {
 .floatingcard {
   opacity: 0.5;
   transition: 1s ease;
+  height: 30%;
 }
 
 .floatingcard:hover {
@@ -271,7 +274,38 @@ span .spanRes {
   transition: 1s ease;
 }
 
+.explorefeatures {
+  color: rgb(77, 117, 194);
+}
+
 .explorefeatures a:hover {
   color: black;
   transition: 0.3s ease;
+}
+
+.card img {
+  object-fit: fill;
+}
+
+.containerblog {
+  background-color: rgb(218, 225, 228);
+}
+
+.page10 {
+  background-color: rgb(227, 232, 235);
+}
+
+.location:hover,
+.phone:hover,
+.email:hover {
+  background-color: white;
+  transition: ease-in 0.3s;
+}
+
+.page10 {
+  height: 110vh;
+}
+
+footer {
+  background-color: rgb(70, 103, 121);
 }
